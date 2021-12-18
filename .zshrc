@@ -52,3 +52,8 @@ alias l='ls -CF'
 
 alias cl='clear'
 alias v='vim'
+source /home/jorge/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+function gam() { "/home/jorge/bin/gam/gam" "$@" ; }
+#enable Vim Mode
+bindkey -v
